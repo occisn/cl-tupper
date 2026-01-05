@@ -1,13 +1,15 @@
 # cl-tupper
 
-Implementation of Tupper's self-referential formula in Common Lisp (SBCL)
+Implementation of Tupper's self-referential formula in Common Lisp (SBCL).
 
 Tupper's self-referential formula is a formula that visually represents itself when graphed on plane.
 
-Formula:
+See [Wikipedia)(https://en.wikipedia.org/wiki/Tupper%27s_self-referential_formula) or [Worlfram MathWorld](https://mathworld.wolfram.com/TuppersSelf-ReferentialFormula.html).
+
+Formula:  
 [later]
 
-SBCL supports 'big' integer, which allows implementing the formula directlly:  
+SBCL supports 'big' integers, which allows implementing the formula directly:  
 ![code](./pics/code.png)
 
 Output:  
